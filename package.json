@@ -1,7 +1,6 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
     "body-parser": "^1.17.1",
@@ -15,12 +14,21 @@
     "multer": "^1.3.0",
     "node-geocoder": "^3.16.0",
     "router": "^1.3.0"
-	},
+  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noatendler/severMyMedical.git"
+  },
+  "bugs": {
+    "url": "https://github.com/noatendler/severMyMedical/issues"
+  },
+  "homepage": "https://github.com/noatendler/severMyMedical#readme",
+  "description": ""
 }
